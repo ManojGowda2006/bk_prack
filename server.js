@@ -7,7 +7,8 @@ app.use(express.json())
 
 
 app.get("/",(req, res) => {
-    res.send("Server is running!!!");
+    res.send(`Server is running!!! 
+        Jai Hanuman🚩🚩`);
 })
 
 app.listen(PORT, () => {
